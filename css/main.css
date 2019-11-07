@@ -2,7 +2,7 @@ Body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: black;
+    color: white;
 }
 
 .ActiveMe {
@@ -24,10 +24,6 @@ Body {
 
 .textBackGround002 {
     background-color: rgb(0, 0, 0, 0.2);
-}
-
-.writeColor {
-    color: black;
 }
 
 h1 {
