@@ -1,0 +1,12 @@
+.BodyExpSco {
+    background-image: url("../image/background.png");
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+li,
+ul {
+    font-weight: bold;
+}
