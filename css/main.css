@@ -1,4 +1,5 @@
 Body {
+    background-image: url("../image/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,6 +15,14 @@ Body {
     text-align: center;
 }
 
+.rightPerso {
+    text-align: right;
+}
+
+.leftPerso {
+    text-align: left;
+}
+
 .margin10 {
     margin-top: 10%;
 }
@@ -22,8 +31,20 @@ Body {
     margin-top: 5%;
 }
 
+.margin3 {
+    margin-top: 3%;
+}
+
+.margin2 {
+    margin-top: 2%;
+}
+
 .textBackGround002 {
     background-color: rgb(0, 0, 0, 0.2);
+}
+
+.souligner {
+    text-decoration: underline;
 }
 
 h1 {
@@ -32,6 +53,14 @@ h1 {
 
 p {
     font-weight: bold;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.textColorWhite {
+    color: white;
 }
 
 
@@ -89,7 +118,7 @@ p {
     }
     #mainNav .nav-link {
         transition: none;
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1rem;
         color: white;
     }
     #mainNav .nav-link:hover {
