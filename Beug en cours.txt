@@ -1,1 +1,2 @@
-La selection des menus est en gras pour la page expérience scolaire
+en mode téléphone mettre le menu a droite et regarder la couleur quand on passe la souris dessus, pour le
+moment la couleur et noire la mettre blanche ou autre quand on passe la souris (changer la couleur de surbriullance )

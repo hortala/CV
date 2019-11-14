@@ -70,7 +70,7 @@ p {
     min-height: 56px;
     background-color: black;
     text-align: center;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 #js-scroll-trigger {
@@ -122,7 +122,7 @@ p {
         color: white;
     }
     #mainNav .nav-link:hover {
-        color: rgba(243, 4, 4, 0.75);
+        color: rgba(243, 4, 4, 0.75)!important;
     }
     #mainNav .nav-link:active {
         color: #fff;
@@ -134,12 +134,17 @@ p {
     }
 }
 
+#mainNav .nav-link:hover {
+    color: blue;
+    font-weight: bold;
+}
+
 #navbar-collapse {
     color: red!important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 
