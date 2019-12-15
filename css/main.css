@@ -23,20 +23,32 @@ Body {
     text-align: left;
 }
 
-.margin10 {
+.marginTop10 {
     margin-top: 10%;
 }
 
-.margin5 {
+.marginTop5 {
     margin-top: 5%;
 }
 
-.margin3 {
+.marginTop3 {
     margin-top: 3%;
 }
 
-.margin2 {
+.marginTop2 {
     margin-top: 2%;
+}
+
+.marginBot10 {
+    margin-bottom: 10%;
+}
+
+.marginBot5 {
+    margin-bottom: 5%;
+}
+
+.alignLeft {
+    text-align: left;
 }
 
 .textBackGround002 {
@@ -70,7 +82,7 @@ p {
     min-height: 56px;
     background-color: black;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 #js-scroll-trigger {
