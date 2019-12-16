@@ -69,11 +69,51 @@
                 <div class="col-md-8 centerPerso marginTop10">
                     <div id="supervisionTemperature">
                         <h2>Supervision de température (en cours)</h2>
-                        <p><u>Context:</u><br> Le principe de ce projet et de faire des relevées de température chaque n minutes puis de faire remonter ces informations sur un ecran ou autre</p>
-
+                        <p><u>Contexte:</u><br> 
+                            Le principe de ce projet et de faire des relevés de température chaque n minutes puis de faire remonter ces informations sur un matériel de supervision.
+                        </p>
+                        <p><u>Fonctionnement:</u><br>
+                            Des capteurs de température seront positionnés à plusieurs endroits dans la maison, ils remonteront des données sur la base de données via le web service.<br>
+                            Sur l'écran de supervision les informations au sujet des températures de chaque zone seront présentes.
+                        </p>
+                        <p><u>Compétences utilisés: </u>
+                        <div style="display: inline-block;" class="leftPerso">
+                                <ul>
+                                    <li>Base de donnée postgresql</li>
+                                    <li>Service web en python</li>
+                                    <li>Supervision html/css/java script</li>
+                                    <li>Programmation language C pour arduino</li>
+                                    <li>Si gros projet (serveur MQTT)</li>
+                                </ul>
+                            </div>
                     </div>
+
                     <div class="marginTop5" id="porteElectroniqueRFID">
                         <h2>Porte Electronique gestion RFID</h2>
+                        <p><u>Contexte:</u><br>
+                            Le principe de ce projet et de restreindre l'accessibilité d'une zone a un badge ou carte RFID.<br>
+                            Cela permet aussi de savoir quelle personne a eu accès à cette zone et quand. 
+                        </p>
+                        <p><u>Fonctionnement:</u><br>
+                            Afin de pouvoir déverrouiller la porte, l'utilisateur a besoin de présenter sa carte ou badge RFID, une fois présenté le code RFID et comparé avec celui des utilisateurs recensés.<br>
+                            Pour une question de cout les informations sont stockées dans un fichier présent sur la carte SD.<br>
+                            Si la personne identifiée est un administrateur, la boîte contenant la carte SD se déverrouille afin qu'il puisse la récupérer et ajouter ou supprimer de nouveau utilisateur.<br>
+                            <br>
+                        </p>
+                        <p><u>Amélioration:</u><br>
+                            L'axe principal d'amélioration que j'envisage et de connecter le système, à partir de ce moment-là j'utiliserai une carte Raspberry afin de crée une base de données directement sur elle, avec une application l'utilisateur pourra changer les informations sans avoir un accès physique.
+                        </p>
+                        <p><u>Matériel utilisé: </u>
+                            <div style="display: inline-block;" class="leftPerso">
+                                <ul>
+                                    <li>Carte arduino nano</li>
+                                    <li>Lecteur de badge RFID</li>
+                                    <li>Lecteur de carte SD</li>
+                                    <li>Afficheur LCD</li>
+                                    <li>Module RTC (horlohe temps réel)</li>
+                                </ul>
+                            </div>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
