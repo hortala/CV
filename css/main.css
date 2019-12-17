@@ -22,7 +22,12 @@ Body {
 .leftPerso {
     text-align: left;
 }
-
+.marginTop17 {
+    margin-top: 17%;
+}
+.marginTop15 {
+    margin-top: 15%;
+}
 .marginTop10 {
     margin-top: 10%;
 }
@@ -147,8 +152,48 @@ p {
         color: #64a19d;
         outline: 0;
         border-bottom: .25rem solid #64a19d;
+        margin-bottom: 5%;
     }
 }
+
+@media (max-width: 767px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        opacity: 0.9;
+        transition: background-color .3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        padding: .5rem 0;
+        color: rgba(255, 255, 255, .5);
+    }
+    #mainNav .nav-link {
+        transition: none;
+        padding: 1.5rem 1rem;
+        color: white;
+    }
+    #mainNav .nav-link:hover {
+        color: rgba(243, 4, 4, 0.75)!important;
+    }
+    #mainNav .nav-link:active {
+        color: #fff;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #64a19d;
+        outline: 0;
+        border-bottom: .25rem solid #64a19d;
+        margin-bottom: 5%;
+    }
+    body{
+        margin-top: 5%;
+    }
+    .bodyCV{
+        margin-top: 8%;
+    }
+
+}
+
 
 #mainNav .nav-link:hover {
     color: blue;
