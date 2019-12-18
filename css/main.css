@@ -94,6 +94,16 @@ p {
     color: black;
 }
 
+.colorLecture
+{
+    color: gray;
+}
+ 
+.colorLecture:hover
+{
+    color: rgb(80, 80, 80);
+}
+
 
 
 /*Debut NavBar*/
@@ -112,8 +122,8 @@ p {
 #mainNav .navbar-toggler {
     font-size: 80%;
     padding: .75rem;
-    color: #64a19d;
-    border: 1px solid #64a19d;
+    color: white;
+    border: 1px solid white;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -150,8 +160,38 @@ p {
     }
     #mainNav .nav-link {
         transition: none;
-        padding: 1.5rem 1rem;
         color: white;
+    }
+    #mainNav .nav-link:hover {
+        color: rgba(243, 4, 4, 0.75)!important;
+    }
+    #mainNav .nav-link:active {
+        color: #fff;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #64a19d;
+        outline: 0;
+        border-bottom: .25rem solid #64a19d;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:992px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        opacity: 0.9;
+        transition: background-color .3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        padding: .5rem 0;
+        color: white;
+    }
+    #mainNav .nav-link {
+        transition: none;
+        color: white;
+        border-style: inset;
     }
     #mainNav .nav-link:hover {
         color: rgba(243, 4, 4, 0.75)!important;
@@ -301,3 +341,5 @@ p {
 }
 
 /* Fin card */
+
+
