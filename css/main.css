@@ -180,8 +180,8 @@ p {
         color: white;
     }
     #mainNav .nav-link {
+        border-style: inset;
         transition: none;
-        padding: 1.5rem 1rem;
         color: white;
     }
     #mainNav .nav-link:hover {
