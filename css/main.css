@@ -259,3 +259,30 @@ p {
     background-color: blue;
 }
 /* Fin menu déroulant */ 
+
+/* Debut card */
+
+.card-header{
+    border-bottom: 3px solid gray;
+}
+
+.text-secondary {
+    color: white!important;
+}
+
+.card {
+    background-color: transparent;
+    border: 5px solid gray;
+    border-style: inset;
+}
+
+.border-success {
+    border-top: 3px solid gray!important;
+}
+
+.cardInsideCard{
+    border-left: 1px;
+    border-right: 1px;
+}
+
+/* Fin card */
