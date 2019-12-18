@@ -3,7 +3,7 @@ Body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: grey;
 }
 
 .ActiveMe {
@@ -68,8 +68,10 @@ Body {
     text-decoration: underline;
 }
 
-h1 {
+h1, h2, h3 {
     text-decoration: underline;
+    color: rgb(65, 62, 62);
+    font-weight: bold;
 }
 
 p {
@@ -84,12 +86,21 @@ p {
     color: white;
 }
 
+.textColorGray {
+    color: gray;
+}
+
+.textColorBlack {
+    color: black;
+}
+
+
 
 /*Debut NavBar*/
 
 #mainNav {
     min-height: 56px;
-    background-color: black;
+    background-color: rgb(66, 66, 83);
     text-align: center;
     opacity: 0.95;
 }
@@ -267,7 +278,7 @@ p {
 }
 
 .text-secondary {
-    color: white!important;
+    color: gray!important;
 }
 
 .card {
