@@ -281,8 +281,12 @@ p {
 }
 
 .cardInsideCard{
-    border-left: 1px;
-    border-right: 1px;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.cardinsideLastCard{
+    border-bottom: transparent;
 }
 
 /* Fin card */
