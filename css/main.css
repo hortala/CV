@@ -52,8 +52,16 @@ Body {
     margin-bottom: 10%;
 }
 
+.marginBot7 {
+    margin-bottom: 7%;
+}
+
 .marginBot5 {
     margin-bottom: 5%;
+}
+
+.marginBot3{
+    margin-bottom: 3%;
 }
 
 .marginBot1{
@@ -285,6 +293,9 @@ p {
 .cardInsideCard{
     border-left: transparent;
     border-right: transparent;
+    width: 90%; 
+    text-align: center!important; 
+    margin-left: 5%;
 }
 
 .cardinsideLastCard{
