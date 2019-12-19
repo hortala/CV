@@ -275,7 +275,7 @@ p {
 .card {
     background-color: transparent;
     border: 5px solid gray;
-    border-style: inset;
+    border-style: inset!important;
 }
 
 .border-success {
@@ -306,10 +306,9 @@ p {
   
   .navbar-fixed-left {
       padding-top: 10px;
-      width: 160px;
       position: fixed;
       border-radius: 0;
-      height: 100%;
+      margin-top: 10%;
       z-index: 1029;
       /*
       font-family: verdana;
