@@ -70,12 +70,12 @@
                     <div id="supervisionTemperature">
                         <h2>Supervision de température (en cours)</h2>
                         <p><u>Contexte:</u><br> 
-                            Le principe de ce projet et de faire des relevés de température chaque n minutes puis de faire remonter ces informations sur un matériel de supervision.
+                            Le principe de ce projet est de faire des relevés de température chaque n minutes puis de faire remonter ces informations sur un matériel de supervision.
                         </p>
                         <p><u>Fonctionnement:</u><br>
                             Des capteurs de température seront positionnés à plusieurs endroits dans la maison, ils remonteront des données sur la base de données via le web service.<br>
                             Sur l'écran de supervision les informations au sujet des températures de chaque zone seront présentes.<br>
-                            Afin d'acceder à leurs informations les utilisateurs doivent ce connecter avec leur mot de passe et leur identifiant.
+                            Afin d'accéder à leurs informations les utilisateurs doivent se connecter avec leur mot de passe et leur identifiant.
                         </p>
                         <p><u>Compétences utilisées: </u>
                         <div style="display: inline-block;" class="leftPerso">
@@ -91,13 +91,13 @@
                     </div>
 
                     <div class="marginTop5" id="LogicielRechercheIlage">
-                        <h2>Logiciel de recherche d'image et supression des doublons</h2>
+                        <h2>Logiciel de recherche d'images et supression des doublons</h2>
                         <p><u>Contexte:</u><br>
-                            J'avais besoin d'un logiciel qui soit capable de trouver toutes les images dans le dossier et sous dossier que je souhaité.<br>
-                            Une fois les images trouvées je souhaite pouvoir changer leurs fichier de destination.
-                            Quand le processus de recherche et de déplacement est terminé, il me fallait pouvoir analyser au niveau pixel si les images sont identique, si elles le sont il me faudra choisir laquelle garder.
+                            J'avais besoin d'un logiciel qui soit capable de trouver toutes les images dans le dossier et sous dossier souhaitées.<br>
+                            Une fois les images trouvées je souhaite pouvoir changer leur fichier de destination.
+                            Quand le processus de recherche et de déplacement est terminé, il me fallait pouvoir analyser au niveau pixel si les images sont identiques, si elles le sont il me faudra choisir laquelle garder.
                         </p>
-                        <p><u>Compétences utilisés: </u>
+                        <p><u>Compétences utilisées: </u>
                         <div style="display: inline-block;" class="leftPerso">
                             <ul>
                                 <li>Programmation C++</li>
@@ -109,26 +109,27 @@
                     <div class="marginTop5" id="porteElectroniqueRFID">
                         <h2>Porte Electronique gestion RFID</h2>
                         <p><u>Contexte:</u><br>
-                            Le principe de ce projet et de restreindre l'accessibilité d'une zone a un badge ou carte RFID.<br>
-                            Cela permet aussi de savoir quelle personne a eu accès à cette zone et quand. 
+                            Le principe de ce projet est de restreindre l'accessibilité d'une zone à un badge ou carte RFID.<br>
+                            Cela permet aussi de savoir quelle personne a eu accès à cette zone et à quel moment. 
                         </p>
                         <p><u>Fonctionnement:</u><br>
-                            Afin de pouvoir déverrouiller la porte, l'utilisateur a besoin de présenter sa carte ou badge RFID, une fois présenté le code RFID et comparé avec celui des utilisateurs recensés.<br>
-                            Pour une question de cout les informations sont stockées dans un fichier présent sur la carte SD.<br>
-                            Si la personne identifiée est un administrateur, la boîte contenant la carte SD se déverrouille afin qu'il puisse la récupérer et ajouter ou supprimer de nouveau utilisateur.<br>
+                            Afin de pouvoir déverrouiller la porte, l'utilisateur a besoin de présenter sa carte ou badge RFID.
+                            Une fois présenté le code RFID est comparé avec celui des utilisateurs recensés.<br>
+                            Pour une question de coût les informations sont stockées dans un fichier présent sur la carte SD.<br>
+                            Si la personne identifiée est un administrateur, la boîte contenant la carte SD se déverrouille afin qu'il puisse la récupérer et ajouter ou supprimer de nouveaux utilisateurs.<br>
                             <br>
                         </p>
                         <p><u>Amélioration:</u><br>
-                            L'axe principal d'amélioration que j'envisage et de connecter le système, à partir de ce moment-là j'utiliserai une carte Raspberry afin de crée une base de données directement sur elle, avec une application l'utilisateur pourra changer les informations sans avoir un accès physique.
+                            L'axe principal d'amélioration que j'envisage est de connecter le système, à partir de ce moment-là j'utiliserai une carte Raspberry afin de créer une base de données locale, avec une application l'utilisateur pourra changer les informations sans avoir un accès physique.
                         </p>
-                        <p><u>Matériel utilisé: </u>
+                        <p><u>Matériel utilisés: </u>
                             <div style="display: inline-block;" class="leftPerso">
                                 <ul>
                                     <li>Carte arduino nano</li>
                                     <li>Lecteur de badge RFID</li>
                                     <li>Lecteur de carte SD</li>
                                     <li>Afficheur LCD</li>
-                                    <li>Module RTC (horlohe temps réel)</li>
+                                    <li>Module RTC (horloge temps réel)</li>
                                 </ul>
                             </div>
                         </p>
