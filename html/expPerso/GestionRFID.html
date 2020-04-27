@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Visualisation">
+    <meta name="author" content="HORTALA Florent">
+    <title>Expérience personelle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendorMe/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../../vendorMe/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/expPerso.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Florent HORTALA</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger " href="../../index.html">Présentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger " href="../cv.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="../diplome.html">Diplôme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger " href="../expPro.html">Expérience professionnelle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger " href="../expSco.html">Expérience scolaire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger ActiveMe" href="../expPerso.html">Expérience personnelle</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="main_boxes">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 centerPerso marginTop10">
+                    <div id="porteElectroniqueRFID">
+                        <h2>Porte Electronique gestion RFID</h2>
+                        <p><u>Contexte:</u><br>
+                            Le principe de ce projet est de restreindre l'accessibilité d'une zone à un badge ou carte RFID.<br>
+                            Cela permet aussi de savoir quelle personne a eu accès à cette zone et à quel moment. 
+                        </p>
+                        <p><u>Fonctionnement:</u><br>
+                            Afin de pouvoir déverrouiller la porte, l'utilisateur a besoin de présenter sa carte ou badge RFID.
+                            Une fois présenté le code RFID est comparé avec celui des utilisateurs recensés.<br>
+                            Pour une question de coût les informations sont stockées dans un fichier présent sur la carte SD.<br>
+                            Si la personne identifiée est un administrateur, la boîte contenant la carte SD se déverrouille afin qu'il puisse la récupérer et ajouter ou supprimer de nouveaux utilisateurs.<br>
+                            <br>
+                        </p>
+                        <p><u>Amélioration:</u><br>
+                            L'axe principal d'amélioration que j'envisage est de connecter le système, à partir de ce moment-là j'utiliserai une carte Raspberry afin de créer une base de données locale, avec une application l'utilisateur pourra changer les informations sans avoir un accès physique.
+                        </p>
+                        <p><u>Matériel utilisés: </u>
+                            <div style="display: inline-block;" class="leftPerso">
+                                <ul>
+                                    <li>Carte arduino nano</li>
+                                    <li>Lecteur de badge RFID</li>
+                                    <li>Lecteur de carte SD</li>
+                                    <li>Afficheur LCD</li>
+                                    <li>Module RTC (horloge temps réel)</li>
+                                </ul>
+                            </div>
+                        </p>
+                    </div>            
+                </div>
+                <div class="col-md-2">
+                    <nav id="navbar-custom" class="navbar navbar-default navbar-fixed-left">
+                        <div class="navbar-header">
+                                <a href="../expPerso.html"><img src="../../image/retour.png" width="100%" alt="retour"></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="../../vendorMe/jquery/jquery.min.js"></script>
+        <script src="../../vendorMe/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="../../vendorMe/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- javascript -->
+        <script src="../../js/main.js"></script>
+
+</body>
+
+</html>

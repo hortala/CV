@@ -66,82 +66,47 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8 centerPerso marginTop10">
-                    <div id="supervisionTemperature">
-                        <h2>Supervision de température (en cours)</h2>
-                        <p><u>Contexte:</u><br> 
-                            Le principe de ce projet est de faire des relevés de température chaque n minutes puis de faire remonter ces informations sur un matériel de supervision.
-                        </p>
-                        <p><u>Fonctionnement:</u><br>
-                            Des capteurs de température seront positionnés à plusieurs endroits dans la maison, ils remonteront des données sur la base de données via le web service.<br>
-                            Sur l'écran de supervision les informations au sujet des températures de chaque zone seront présentes.<br>
-                            Afin d'accéder à leurs informations les utilisateurs doivent se connecter avec leur mot de passe et leur identifiant.
-                        </p>
-                        <p><u>Compétences utilisées: </u>
-                        <div style="display: inline-block;" class="leftPerso">
-                            <ul>
-                                <li>Base de donnée postgresql</li>
-                                <li>Service web en python</li>
-                                <li>Supervision html/css/java script</li>
-                                <li>Programmation language C pour arduino</li>
-                                <li>Si gros projet (serveur MQTT)</li>
-                                <li>Déploiement héroku (WebService / Base de donnée)</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="marginTop5" id="LogicielRechercheIlage">
-                        <h2>Logiciel de recherche d'images et supression des doublons</h2>
-                        <p><u>Contexte:</u><br>
-                            J'avais besoin d'un logiciel qui soit capable de trouver toutes les images dans le dossier et sous dossier souhaitées.<br>
-                            Une fois les images trouvées je souhaite pouvoir changer leur fichier de destination.
-                            Quand le processus de recherche et de déplacement est terminé, il me fallait pouvoir analyser au niveau pixel si les images sont identiques, si elles le sont il me faudra choisir laquelle garder.
-                        </p>
-                        <p><u>Compétences utilisées: </u>
-                        <div style="display: inline-block;" class="leftPerso">
-                            <ul>
-                                <li>Programmation C++</li>
-                                <li>IDE: QTCreator</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="marginTop5" id="porteElectroniqueRFID">
-                        <h2>Porte Electronique gestion RFID</h2>
-                        <p><u>Contexte:</u><br>
-                            Le principe de ce projet est de restreindre l'accessibilité d'une zone à un badge ou carte RFID.<br>
-                            Cela permet aussi de savoir quelle personne a eu accès à cette zone et à quel moment. 
-                        </p>
-                        <p><u>Fonctionnement:</u><br>
-                            Afin de pouvoir déverrouiller la porte, l'utilisateur a besoin de présenter sa carte ou badge RFID.
-                            Une fois présenté le code RFID est comparé avec celui des utilisateurs recensés.<br>
-                            Pour une question de coût les informations sont stockées dans un fichier présent sur la carte SD.<br>
-                            Si la personne identifiée est un administrateur, la boîte contenant la carte SD se déverrouille afin qu'il puisse la récupérer et ajouter ou supprimer de nouveaux utilisateurs.<br>
-                            <br>
-                        </p>
-                        <p><u>Amélioration:</u><br>
-                            L'axe principal d'amélioration que j'envisage est de connecter le système, à partir de ce moment-là j'utiliserai une carte Raspberry afin de créer une base de données locale, avec une application l'utilisateur pourra changer les informations sans avoir un accès physique.
-                        </p>
-                        <p><u>Matériel utilisés: </u>
-                            <div style="display: inline-block;" class="leftPerso">
-                                <ul>
-                                    <li>Carte arduino nano</li>
-                                    <li>Lecteur de badge RFID</li>
-                                    <li>Lecteur de carte SD</li>
-                                    <li>Afficheur LCD</li>
-                                    <li>Module RTC (horloge temps réel)</li>
-                                </ul>
+                <div class="col-md-8">
+                    <h1 class="marginTop15 centerPerso">Expériences personnelles</h1>
+                    <div class="row marginTop5">
+                        <div class="col-md-6" id="Supervision température">
+                            <div class="card border-secondary" style="width: 100%; height: 95%;">
+                                <div class="card-header centerPerso colorLecture"><h5>Supervision de température (en cours)<br><br></h5></div>
+                                <div class="card-body text-secondary centerPerso">
+                                        <a href="expPerso/SuperVTemp.html"><img src="../image/expPerso/supervision temp.png" alt="IMG Supervision température" width="70%"></a>
+                                </div> 
                             </div>
-                        </p>
+                        </div>
+                        <div class="col-md-6" id="Logiciel recherche et supression doublon image">
+                            <div class="card border-secondary" style="width: 100%; height: 95%;">
+                                <div class="card-header centerPerso colorLecture"><h5>Logiciel de recherche d'image et supression des doublons d'images</h5></div>
+                                <div class="card-body text-secondary centerPerso">
+                                        <a href="expPerso/RechercheSupression.html"><img src="../image/expPerso/recherche image.jpg" width="70%" alt="rechercheSupressionIMG"></a>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="Porte électronique gestion RFID">
+                            <div class="card border-secondary" style="width: 100%; height: 95%;">
+                                <div class="card-header centerPerso colorLecture"><h5 class="vertical-align">Porte électronique gestion RFID</h5></div>
+                                <div class="card-body text-secondary centerPerso">
+                                        <a href="expPerso/GestionRFID.html"><img src="../image/expPerso/Serrure RFID.jpg" width="100%" alt="Sérure RFID"></a>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="Impression 3D">
+                            <div class="card border-secondary" style="width: 100%; height: 95%;">
+                                <div class="card-header centerPerso colorLecture"><h5 class="vertical-align">Impression 3D</h5></div>
+                                <div class="card-body text-secondary centerPerso">
+                                        <a href="expPerso/Impression3D.html"><img src="../image/expPerso/Impression3DImageType.jpeg" width="100%" alt="Impression 3D"></a>
+                                </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
             </div>
         </div>
-
-
-
-
+    </div>
         <!-- Bootstrap core JavaScript -->
         <script src="../vendorMe/jquery/jquery.min.js"></script>
         <script src="../vendorMe/bootstrap/js/bootstrap.bundle.min.js"></script>

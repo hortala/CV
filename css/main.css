@@ -31,7 +31,9 @@ Body {
 .marginTop10 {
     margin-top: 10%;
 }
-
+.marginTop8 {
+    margin-top: 8%;
+}
 .marginTop7 {
     margin-top: 7%;
 }
@@ -50,6 +52,10 @@ Body {
 
 .marginBot10 {
     margin-bottom: 10%;
+}
+
+.marginBot8 {
+    margin-bottom: 8%;
 }
 
 .marginBot7 {
