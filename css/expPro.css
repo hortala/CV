@@ -8,3 +8,8 @@ li{
 .text-secondary:hover {
     color: rgb(80, 80, 80)!important;
 }
+
+.colorPersoLien{
+    color: black !important;
+}
+
